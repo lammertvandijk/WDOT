@@ -7,7 +7,7 @@
   },
   {
     "Name": "autotimesvc",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "URL": "https://docs.microsoft.com/en-us/windows-hardware/drivers/network/mb-nitz-support",
     "Description": "Cellular Time service: this service sets time based on NITZ messages from a Mobile Network"
   },
@@ -19,7 +19,7 @@
   },
   {
     "Name": "defragsvc",
-    "OptimizationState": "Apply",
+    "OptimizationState": "Skip",
     "Description": "Optimize drives"
   },
   {
