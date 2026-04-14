@@ -1,7 +1,7 @@
 [
   {
     "Name": "InstallService",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "URL": "",
     "Description": "Provides infrastructure support for the Microsoft Store."
   },
@@ -19,28 +19,28 @@
   },
   {
     "Name": "defragsvc",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "Description": "Optimize drives"
   },
   {
     "Name": "DiagSvc",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "Description": "Diagnostic Execution Service"
   },
   {
     "Name": "DiagTrack",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "Description": "Connected User Experiences and Telemetry."
   },
   {
     "Name": "DPS",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "URL": "https://docs.microsoft.com/en-us/uwp/api/Windows.System.Diagnostics?view=winrt-19041",
     "Description": "The Diagnostic Policy Service enables problem detection, troubleshooting and resolution for Windows components. If this service is stopped, diagnostics will no longer function."
   },
   {
     "Name": "DusmSvc",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "URL": "https://docs.microsoft.com/en-us/uwp/schemas/mobilebroadbandschema/dusm/schema-root",
     "Description": "Data Usage service: network data usage, data limit, restrict background data, metered networks."
   },
@@ -85,7 +85,7 @@
   },
   {
     "Name": "SysMain",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "Description": "Maintains and improves system performance over time."
   },
   {
@@ -96,7 +96,7 @@
   },
   {
     "Name": "WdiSystemHost",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "Description": "Diagnostic System Host service. The Diagnostic System Host is used by the Diagnostic Policy Service to host diagnostics that need to run in a Local System context.  If this service is stopped, any diagnostics that depend on it will no longer function."
   },
   {

@@ -13,7 +13,7 @@
   },
   {
     "Name": "BcastDVRUserService",
-    "OptimizationState": "Apply",
+    "OptimizationState": "Skip",
     "URL": "https://docs.microsoft.com/en-us/windows-hardware/drivers/network/mb-nitz-support",
     "Description": "This user service is used for Game Recordings and Live Broadcasts"
   },
@@ -40,7 +40,7 @@
   },
   {
     "Name": "DusmSvc",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "URL": "https://docs.microsoft.com/en-us/uwp/schemas/mobilebroadbandschema/dusm/schema-root",
     "Description": "Data Usage service: network data usage, data limit, restrict background data, metered networks."
   },
@@ -96,7 +96,7 @@
   },
   {
     "Name": "WdiSystemHost",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "Description": "Diagnostic System Host service. The Diagnostic System Host is used by the Diagnostic Policy Service to host diagnostics that need to run in a Local System context.  If this service is stopped, any diagnostics that depend on it will no longer function."
   },
   {
