@@ -3,336 +3,392 @@
     "AppxPackage": "Bing Search",
     "OptimizationState": "Apply",
     "URL": "https://apps.microsoft.com/detail/9nzbf4gt040c",
-    "Description": "Web Search from Microsoft Bing provides web results and answers in Windows Search"
+    "Description": "Web Search from Microsoft Bing provides web results and answers in Windows Search",
+    "Comment": "Bing web-results in Start - bloat. Beheer search via PolicyRegSettings (NoSearchInternetInStartMenu)."
   },
   {
     "AppxPackage": "Clipchamp.Clipchamp",
     "OptimizationState": "Apply",
     "URL": "https://apps.microsoft.com/detail/9p1j8s7ccwwt",
-    "Description": "Create videos with a few clicks"
+    "Description": "Create videos with a few clicks",
+    "Comment": "Video editing - geen zakelijke use case op AVD."
   },
   {
     "AppxPackage": "Microsoft.Copilot",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "URL": "https://apps.microsoft.com/detail/9nht9rb2f4hd",
-    "Description": "Microsoft AI app"
+    "Description": "Microsoft AI app",
+    "Comment": "Standalone CONSUMER Copilot-app. Niet hetzelfde als M365 Copilot (zit in Office). Veilig om te killen."
   },
   {
     "AppxPackage": "Microsoft.549981C3F5F10",
     "OptimizationState": "Apply",
     "URL": "https://apps.microsoft.com/detail/cortana/9NFFX4SZZ23L",
-    "Description": "Cortana (could not update)"
+    "Description": "Cortana (could not update)",
+    "Comment": "Cortana is dood (Microsoft EOL). Verwijderen."
   },
   {
     "AppxPackage": "Microsoft.BingNews",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/microsoft-news/9wzdncrfhvfw",
-    "Description": "Microsoft News app"
+    "Description": "Microsoft News app",
+    "Comment": "Bloat."
   },
   {
     "AppxPackage": "Microsoft.BingWeather",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/msn-weather/9wzdncrfj3q2",
-    "Description": "MSN Weather app"
+    "Description": "MSN Weather app",
+    "Comment": "Bloat."
   },
   {
     "AppxPackage": "Microsoft.DesktopAppInstaller",
     "OptimizationState": "Skip",
     "URL": "https://apps.microsoft.com/detail/9NBLGGH4NNS1",
-    "Description": "Microsoft App Installer for Windows 10 makes sideloading Windows apps easy"
+    "Description": "Microsoft App Installer for Windows 10 makes sideloading Windows apps easy",
+    "Comment": "BEHOUDEN: dependency van winget en .msix-installers. Verwijderen breekt package management."
   },
   {
-    "AppxPackage": "Microsoft.Edge.GameAssist ",
+    "AppxPackage": "Microsoft.Edge.GameAssist",
     "OptimizationState": "Apply",
     "URL": "",
-    "Description": ""
+    "Description": "Edge Game Assist sidebar",
+    "Comment": "FIX: trailing-space in originele naam verwijderd. Edge gaming-sidebar - geen use case op AVD."
   },
   {
     "AppxPackage": "Microsoft.GamingApp",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/xbox/9mv0b5hzvk9z",
-    "Description": "Xbox app"
+    "Description": "Xbox app",
+    "Comment": "Geen Xbox/gaming op AVD."
   },
   {
     "AppxPackage": "Microsoft.GetHelp",
     "OptimizationState": "Apply",
     "URL": "https://docs.microsoft.com/en-us/windows-hardware/customize/desktop/customize-get-help-app",
-    "Description": "App that facilitates free support for Microsoft products"
+    "Description": "App that facilitates free support for Microsoft products",
+    "Comment": "Consumer support - AVD-users bellen IT, niet Microsoft."
   },
   {
     "AppxPackage": "Microsoft.Getstarted",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/microsoft-tips/9wzdncrdtbjj",
-    "Description": "Windows 10 tips app"
+    "Description": "Windows 10 tips app",
+    "Comment": "Tips-app - irritant en bloat."
   },
   {
     "AppxPackage": "Microsoft.MicrosoftOfficeHub",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/office/9wzdncrd29v9",
-    "Description": "Office UWP app suite"
+    "Description": "Office UWP app suite",
+    "Comment": "Office UWP-launcher tile - overbodig met M365 Apps full install. Voorkomt user-verwarring."
   },
   {
     "AppxPackage": "Microsoft.Office.OneNote",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/onenote-for-windows-10/9wzdncrfhvjl",
-    "Description": "Office UWP OneNote app"
+    "Description": "Office UWP OneNote app",
+    "Comment": "UWP OneNote - vervangen door OneNote in M365 Apps (Office 2016+ versie)."
   },
   {
     "AppxPackage": "Microsoft.MicrosoftSolitaireCollection",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/microsoft-solitaire-collection/9wzdncrfhwd2",
-    "Description": "Solitaire suite of games"
+    "Description": "Solitaire suite of games",
+    "Comment": "Games op AVD = nope."
   },
   {
     "AppxPackage": "Microsoft.MicrosoftStickyNotes",
     "OptimizationState": "Skip",
     "URL": "https://www.microsoft.com/en-us/p/microsoft-sticky-notes/9nblggh4qghw",
-    "Description": "Note-taking app"
+    "Description": "Note-taking app",
+    "Comment": "BEHOUDEN: zakelijk veel gebruikt, sync via M365-account."
   },
   {
     "AppxPackage": "Microsoft.OutlookForWindows",
-    "OptimizationState": "Apply",
+    "OptimizationState": "Skip",
     "URL": "https://apps.microsoft.com/detail/9NRX63209R7B?hl=en-us&gl=US",
-    "Description": "a best-in-class email experience that is free for anyone with Windows"
+    "Description": "a best-in-class email experience that is free for anyone with Windows",
+    "Comment": "New Outlook (UWP) - M365 Apps levert classic Outlook die alle features heeft. Voorkom user-verwarring."
   },
   {
     "AppxPackage": "Microsoft.MSPaint",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "URL": "https://apps.microsoft.com/store/detail/paint-3d/9NBLGGH5FV99",
-    "Description": "Paint 3D app (not Classic Paint app)"
+    "Description": "Paint 3D app (not Classic Paint app)",
+    "Comment": "Paint 3D - gedeprecateerd door Microsoft (Nov 2024). Classic Paint hieronder behouden."
   },
   {
     "AppxPackage": "Microsoft.Paint",
     "OptimizationState": "Skip",
     "URL": "https://apps.microsoft.com/detail/9PCFS5B6T72H",
-    "Description": "Classic Paint app"
+    "Description": "Classic Paint app",
+    "Comment": "BEHOUDEN: default image-editor, veel gebruikt voor screenshots."
   },
   {
     "AppxPackage": "Microsoft.People",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/microsoft-people/9nblggh10pg8",
-    "Description": "Contact management app"
+    "Description": "Contact management app",
+    "Comment": "Dood - hoorde bij Mail/Calendar consumer-stack."
   },
   {
     "AppxPackage": "Microsoft.PowerAutomateDesktop",
     "OptimizationState": "Apply",
     "URL": "https://flow.microsoft.com/en-us/desktop/",
-    "Description": "Power Automate Desktop app. Record desktop and web actions in a single flow"
+    "Description": "Power Automate Desktop app. Record desktop and web actions in a single flow",
+    "Comment": "BEHOUDEN: zit in M365-licenties. Apply alleen als deze AVD-pool zeker geen PAD-users heeft."
   },
   {
     "AppxPackage": "Microsoft.ScreenSketch",
     "OptimizationState": "Skip",
     "URL": "https://www.microsoft.com/en-us/p/snip-sketch/9mz95kl8mr0l",
-    "Description": "Snip and Sketch app"
+    "Description": "Snip and Sketch app",
+    "Comment": "BEHOUDEN: dit IS Snipping Tool in W11 - kritiek voor screenshots (Win+Shift+S)."
   },
   {
     "AppxPackage": "Microsoft.SkypeApp",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/skype/9wzdncrfj364",
-    "Description": "Instant message, voice or video call app"
+    "Description": "Instant message, voice or video call app",
+    "Comment": "Skype consumer is per mei 2025 EOL door Microsoft. Verwijderen."
   },
   {
     "AppxPackage": "Microsoft.StorePurchaseApp",
-    "OptimizationState": "Apply",
+    "OptimizationState": "Skip",
     "URL": "",
-    "Description": "Store purchase app helper"
+    "Description": "Store purchase app helper",
+    "Comment": "BEHOUDEN: Store-dependency. Verwijderen breekt Store-installs/updates."
   },
   {
     "AppxPackage": "Microsoft.Todos",
     "OptimizationState": "Skip",
     "URL": "https://www.microsoft.com/en-us/p/microsoft-to-do-lists-tasks-reminders/9nblggh5r558",
-    "Description": "Microsoft To Do makes it easy to plan your day and manage your life"
+    "Description": "Microsoft To Do makes it easy to plan your day and manage your life",
+    "Comment": "BEHOUDEN: M365 To Do - sync met Outlook tasks/Planner. Productieve tool."
   },
   {
     "AppxPackage": "Microsoft.USNationalParks",
     "OptimizationState": "Apply",
     "URL": "",
-    "Description": ""
+    "Description": "Nieuwe bloatware sinds 24H2",
+    "Comment": "Pure bloat."
   },
   {
     "AppxPackage": "Microsoft.WinDbg.Fast",
     "OptimizationState": "Apply",
     "URL": "https://apps.microsoft.com/detail/9PGJGD53TN86?hl=en-us&gl=US",
-    "Description": "Microsoft WinDbg"
+    "Description": "Microsoft WinDbg",
+    "Comment": "Dev-tool - voor end-users overbodig. Skip alleen als dev-pool."
   },
   {
     "AppxPackage": "Microsoft.Windows.DevHome",
     "OptimizationState": "Apply",
     "URL": "https://learn.microsoft.com/en-us/windows/dev-home/",
-    "Description": "A control center providing the ability to monitor projects in your dashboard using customizable widgets and more"
+    "Description": "A control center providing the ability to monitor projects in your dashboard using customizable widgets and more",
+    "Comment": "Dev-dashboard, nutteloos voor end-users."
   },
   {
     "AppxPackage": "Microsoft.Windows.Photos",
     "OptimizationState": "Skip",
     "URL": "https://www.microsoft.com/en-us/p/microsoft-photos/9wzdncrfjbh4",
-    "Description": "Photo and video editor"
+    "Description": "Photo and video editor",
+    "Comment": "BEHOUDEN: default image-viewer in W11. Verwijderen breekt dubbelklik op .jpg/.png."
   },
   {
     "AppxPackage": "Microsoft.WindowsAlarms",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/windows-alarms-clock/9wzdncrfj3pr",
-    "Description": "A combination app, of alarm clock, world clock, timer, and stopwatch."
+    "Description": "A combination app, of alarm clock, world clock, timer, and stopwatch.",
+    "Comment": "Alarm/timer - geen zakelijke use case."
   },
   {
     "AppxPackage": "Microsoft.WindowsCalculator",
     "OptimizationState": "Skip",
     "URL": "https://www.microsoft.com/en-us/p/windows-calculator/9wzdncrfhvn5",
-    "Description": "Microsoft Calculator app"
+    "Description": "Microsoft Calculator app",
+    "Comment": "BEHOUDEN: default rekenmachine, iedereen verwacht 'm."
   },
   {
     "AppxPackage": "Microsoft.WindowsCamera",
     "OptimizationState": "Skip",
     "URL": "https://www.microsoft.com/en-us/p/windows-camera/9wzdncrfjbbg",
-    "Description": "Camera app to manage photos and video"
+    "Description": "Camera app to manage photos and video",
+    "Comment": "Geen camera op AVD-VM."
   },
   {
     "AppxPackage": "microsoft.windowscommunicationsapps",
-    "OptimizationState": "Apply",
+    "OptimizationState": "Skip",
     "URL": "https://www.microsoft.com/en-us/p/mail-and-calendar/9wzdncrfhvqm",
-    "Description": "Mail & Calendar apps"
+    "Description": "Mail & Calendar apps",
+    "Comment": "Mail/Calendar UWP - vervangen door Outlook in M365 Apps. EOL bij Microsoft per 2024."
   },
   {
     "AppxPackage": "Microsoft.WindowsFeedbackHub",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/feedback-hub/9nblggh4r32n",
-    "Description": "App to provide Feedback on Windows and apps to Microsoft"
+    "Description": "App to provide Feedback on Windows and apps to Microsoft",
+    "Comment": "Telemetry/feedback naar Microsoft - niet voor managed enterprise."
   },
   {
     "AppxPackage": "Microsoft.WindowsMaps",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/windows-maps/9wzdncrdtbvb",
-    "Description": "Microsoft Maps app"
+    "Description": "Microsoft Maps app",
+    "Comment": "Maps zonder GPS op AVD = nutteloos."
   },
   {
     "AppxPackage": "Microsoft.WindowsNotepad",
     "OptimizationState": "Skip",
     "URL": "https://www.microsoft.com/en-us/p/windows-notepad/9msmlrh6lzf3",
-    "Description": "Fast, simple text editor for plain text documents and source code files."
+    "Description": "Fast, simple text editor for plain text documents and source code files.",
+    "Comment": "BEHOUDEN: default tekst-editor. Verwijderen = users klagen."
   },
   {
     "AppxPackage": "Microsoft.WindowsStore",
     "OptimizationState": "Skip",
     "URL": "https://blogs.windows.com/windowsexperience/2021/06/24/building-a-new-open-microsoft-store-on-windows-11/",
-    "Description": "Windows Store app"
+    "Description": "Windows Store app",
+    "Comment": "ESSENTIEEL: Store doet ook Store-app updates (Teams, Notepad, Calculator). NOOIT verwijderen."
   },
   {
     "AppxPackage": "Microsoft.WindowsSoundRecorder",
     "OptimizationState": "Skip",
     "URL": "https://www.microsoft.com/en-us/p/windows-voice-recorder/9wzdncrfhwkn",
-    "Description": "(Voice recorder)"
+    "Description": "(Voice recorder)",
+    "Comment": "Voice-recorder - niet nodig op AVD."
   },
   {
     "AppxPackage": "Microsoft.WindowsTerminal",
     "OptimizationState": "Skip",
     "URL": "https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701",
-    "Description": "A terminal app featuring tabs, panes, Unicode, UTF-8 character support, and GPU text rendering engine."
+    "Description": "A terminal app featuring tabs, panes, Unicode, UTF-8 character support, and GPU text rendering engine.",
+    "Comment": "BEHOUDEN: default terminal in W11. Power-users en IT-support gebruiken dit."
   },
   {
     "AppxPackage": "Microsoft.Winget.Platform.Source",
     "OptimizationState": "Skip",
     "URL": "https://learn.microsoft.com/en-us/windows/package-manager/winget/",
-    "Description": "The Winget tool enables users to manage applications on Win10 and Win11 devices. This tool is the client interface to the Windows Package Manager service"
+    "Description": "The Winget tool enables users to manage applications on Win10 and Win11 devices. This tool is the client interface to the Windows Package Manager service",
+    "Comment": "BEHOUDEN: winget package source - kritiek voor app-management."
   },
   {
     "AppxPackage": "Microsoft.Xbox.TCUI",
-    "OptimizationState": "Apply",
+    "OptimizationState": "Skip",
     "URL": "https://docs.microsoft.com/en-us/gaming/xbox-live/features/general/tcui/live-tcui-overview",
-    "Description": "XBox Title Callable UI (TCUI) enables your game code to call pre-defined user interface displays"
+    "Description": "XBox Title Callable UI (TCUI) enables your game code to call pre-defined user interface displays",
+    "Comment": "BEHOUDEN: ondanks Xbox-naam is dit een dependency van andere apps. Verwijderen kan sysprep breken (VDOT issue #120)."
   },
   {
     "AppxPackage": "Microsoft.XboxGameOverlay",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/xbox-game-bar/9nzkpstsnw4p",
-    "Description": "Xbox Game Bar extensible overlay"
+    "Description": "Xbox Game Bar extensible overlay",
+    "Comment": "Game Bar overlay - geen gaming op AVD."
   },
   {
     "AppxPackage": "Microsoft.XboxGamingOverlay",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/xbox-game-bar/9nzkpstsnw4p",
-    "Description": "Xbox Game Bar extensible overlay"
+    "Description": "Xbox Game Bar extensible overlay",
+    "Comment": "Game Bar (Win+G). Aanvullend uitgezet via DefaultUserSettings."
   },
   {
     "AppxPackage": "Microsoft.XboxIdentityProvider",
-    "OptimizationState": "Apply",
+    "OptimizationState": "Skip",
     "URL": "https://www.microsoft.com/en-us/p/xbox-identity-provider/9wzdncrd1hkw",
-    "Description": "A system app that enables PC games to connect to Xbox Live."
+    "Description": "A system app that enables PC games to connect to Xbox Live.",
+    "Comment": "BEHOUDEN: system-dependency, kan sysprep/AppX-readiness raken bij verwijderen."
   },
   {
     "AppxPackage": "Microsoft.XboxSpeechToTextOverlay",
     "OptimizationState": "Apply",
     "URL": "https://support.xbox.com/help/account-profile/accessibility/use-game-chat-transcription",
-    "Description": "Xbox game transcription overlay"
+    "Description": "Xbox game transcription overlay",
+    "Comment": "Game transcription - nutteloos zonder Xbox/games."
   },
   {
     "AppxPackage": "Microsoft.YourPhone",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/Your-phone/9nmpj99vjbwv",
-    "Description": "Android phone to PC device interface app"
+    "Description": "Android phone to PC device interface app",
+    "Comment": "Phone Link - nutteloos op cloud-VM zonder USB/Bluetooth."
   },
   {
     "AppxPackage": "Microsoft.ZuneMusic",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/groove-music/9wzdncrfj3pt",
-    "Description": "Groove Music app"
+    "Description": "Groove Music app",
+    "Comment": "Media-player op werk-VM = nope."
   },
   {
     "AppxPackage": "Microsoft.ZuneVideo",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/movies-tv/9wzdncrfj3p2",
-    "Description": "Movies and TV app"
+    "Description": "Movies and TV app",
+    "Comment": "Films op werk-VM = nope."
   },
   {
     "AppxPackage": "MicrosoftCorporationII.QuickAssist",
     "OptimizationState": "Apply",
     "URL": "https://apps.microsoft.com/detail/9P7BP5VNWKX5?hl=en-us&gl=US",
-    "Description": "Microsoft remote help app"
+    "Description": "Microsoft remote help app",
+    "Comment": "BEHOUDEN: kritiek voor IT-helpdesk om users remote te helpen."
   },
   {
     "AppxPackage": "MicrosoftWindows.Client.WebExperience",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "URL": "",
-    "Description": "Windows 11 Internet information widget"
+    "Description": "Windows 11 Internet information widget",
+    "Comment": "Widgets/News-feed in taakbalk - bloat. Aanvullend uitgezet via AllowNewsAndInterests-policy."
   },
   {
     "AppxPackage": "Microsoft.XboxApp",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/store/apps/9wzdncrfjbd8",
-    "Description": "Xbox 'Console Companion' app (games, friends, etc.)"
+    "Description": "Xbox 'Console Companion' app (games, friends, etc.)",
+    "Comment": "Console Companion - geen Xbox-koppeling op AVD."
   },
   {
     "AppxPackage": "Microsoft.MixedReality.Portal",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/mixed-reality-portal/9ng1h8b3zc7m",
-    "Description": "The app that facilitates Windows Mixed Reality setup, and serves as the command center for mixed reality experiences"
+    "Description": "The app that facilitates Windows Mixed Reality setup, and serves as the command center for mixed reality experiences",
+    "Comment": "WMR is door Microsoft EOL (Nov 2024). Verwijderen."
   },
   {
     "AppxPackage": "Microsoft.Microsoft3DViewer",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/p/3d-viewer/9nblggh42ths",
-    "Description": "App to view common 3D file types"
+    "Description": "App to view common 3D file types",
+    "Comment": "3D viewer - hoorde bij Paint 3D-stack die dood is."
   },
   {
     "AppxPackage": "MicrosoftTeams",
     "OptimizationState": "Apply",
     "URL": "https://apps.microsoft.com/detail/xp8bt8dw290mpq",
-    "Description": "Microsoft communication platform"
+    "Description": "Microsoft communication platform",
+    "Comment": "BELANGRIJK: dit is CONSUMER Teams (Personal). MOET weg, MSTeams hieronder is enterprise New Teams."
   },
   {
     "AppxPackage": "MSTeams",
     "OptimizationState": "Apply",
     "URL": "https://apps.microsoft.com/detail/xp8bt8dw290mpq",
-    "Description": "Microsoft communication platform"
+    "Description": "Microsoft communication platform",
+    "Comment": "BEHOUDEN: dit IS New Teams (enterprise/work). Per-machine install voor multi-session AVD."
   },
   {
     "AppxPackage": "Microsoft.OneDriveSync",
     "OptimizationState": "Apply",
     "URL": "https://docs.microsoft.com/en-us/onedrive/one-drive-sync",
-    "Description": "Microsoft OneDrive sync app (included in Office 2016 or later)"
+    "Description": "Microsoft OneDrive sync app (included in Office 2016 or later)",
+    "Comment": "BEHOUDEN: M365 dependency. Known Folder Move + OneDrive sync werkt zonder dit niet."
   },
   {
     "AppxPackage": "Microsoft.Wallet",
     "OptimizationState": "Apply",
     "URL": "https://www.microsoft.com/en-us/payments",
-    "Description": "(Microsoft Pay) for Edge browser on certain devices"
+    "Description": "(Microsoft Pay) for Edge browser on certain devices",
+    "Comment": "Microsoft Pay - Microsoft heeft dit consumer-product al jaren afgebouwd."
   }
 ]

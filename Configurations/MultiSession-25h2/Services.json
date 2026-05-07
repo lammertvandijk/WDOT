@@ -13,18 +13,18 @@
   },
   {
     "Name": "BcastDVRUserService",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "URL": "https://docs.microsoft.com/en-us/windows-hardware/drivers/network/mb-nitz-support",
     "Description": "This user service is used for Game Recordings and Live Broadcasts"
   },
   {
     "Name": "defragsvc",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "Description": "Optimize drives"
   },
   {
     "Name": "DiagSvc",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "Description": "Diagnostic Execution Service"
   },
   {
@@ -85,12 +85,12 @@
   },
   {
     "Name": "SysMain",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "Description": "Maintains and improves system performance over time."
   },
   {
     "Name": "VSS",
-    "OptimizationState": "Apply",
+    "OptimizationState": "Skip",
     "URL": "https://docs.microsoft.com/en-us/windows-server/storage/file-server/volume-shadow-copy-service",
     "Description": "Volume Shadow Copy"
   },

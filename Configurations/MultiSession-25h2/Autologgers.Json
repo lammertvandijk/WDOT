@@ -2,7 +2,7 @@
   {
     "KeyName": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\WMI\\Autologger\\Cellcore\\",
     "URL": "https://docs.microsoft.com/en-us/windows-hardware/drivers/network/cellular-architecture-and-driver-model",
-    "OptimizationState": "Skip",
+    "OptimizationState": "Apply",
     "Description": "The 'Cellcore' trace has 'SMSRouter' in the trace properties."
   },
   {
@@ -38,7 +38,7 @@
   {
     "KeyName": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\WMI\\Autologger\\Mellanox-Kernel\\",
     "URL": "N/A",
-    "OptimizationState": "Apply",
+    "OptimizationState": "Skip",
     "Description": "Diagnostic log for ReFS. Unless using ReFS, this trace log should not be needed"
   }
 ]

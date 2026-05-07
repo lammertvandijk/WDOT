@@ -1,0 +1,482 @@
+[
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+        "KeyName": "Start_IrisRecommendations",
+        "PropertyType": "DWord",
+        "PropertyValue": "0",
+        "OptimizationState": "Apply",
+        "Comment": "Geen AI/Iris-aanbevelingen in Start menu."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+        "KeyName": "TaskbarMn",
+        "PropertyType": "DWord",
+        "PropertyValue": "0",
+        "OptimizationState": "Apply",
+        "Comment": "Meet Now-icon op taakbalk uit."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent",
+        "KeyName": "DisableThirdPartySuggestions",
+        "PropertyType": "DWord",
+        "PropertyValue": "1",
+        "OptimizationState": "Apply",
+        "Comment": "Geen 3rd-party app suggesties (Spotify, etc.)."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent",
+        "KeyName": "DisableTailoredExperiencesWithDiagnosticData",
+        "PropertyType": "DWord",
+        "PropertyValue": "1",
+        "OptimizationState": "Apply",
+        "Comment": "Geen 'tailored experiences' op basis van telemetrie."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer",
+        "KeyName": "NoResolveSearch",
+        "PropertyType": "DWord",
+        "PropertyValue": "1",
+        "OptimizationState": "Apply",
+        "Comment": "Geen netwerk-resolve bij broken-shortcuts."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Policies\\Microsoft\\Windows\\Directory UI",
+        "KeyName": "QueryLimit",
+        "PropertyType": "DWord",
+        "PropertyValue": "1500",
+        "OptimizationState": "Apply",
+        "Comment": "Cap AD-zoekresultaten op 1500 (default 10000) - sneller in grote tenants."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Policies\\Microsoft\\Windows\\Explorer",
+        "KeyName": "NoWindowMinimizingShortcuts",
+        "PropertyType": "DWord",
+        "PropertyValue": "1",
+        "OptimizationState": "Apply",
+        "Comment": "Aero-shake (minimize-other-windows-by-shake) uit."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer",
+        "KeyName": "TaskbarNoNotification",
+        "PropertyType": "DWord",
+        "PropertyValue": "1",
+        "OptimizationState": "Skip",
+        "Comment": "SKIP: blokkeert ALLE systray-notificaties incl. Teams/Outlook reminders. Te agressief."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent",
+        "KeyName": "DisableWindowsSpotlightFeatures",
+        "PropertyType": "DWord",
+        "PropertyValue": "1",
+        "OptimizationState": "Apply",
+        "Comment": "Spotlight-features (lockscreen images via Bing) uit."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer",
+        "KeyName": "NoThumbnailCache",
+        "PropertyType": "DWord",
+        "PropertyValue": "1",
+        "OptimizationState": "Skip",
+        "Comment": "SKIP: maakt Explorer traag in beeld-folders. IconsOnly=1 hieronder dekt al de I/O-winst."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Policies\\Microsoft\\Windows\\Explorer",
+        "KeyName": "DisableSearchBoxSuggestions",
+        "PropertyType": "DWord",
+        "PropertyValue": "1",
+        "OptimizationState": "Apply",
+        "Comment": "Geen Bing-suggesties in zoekbox."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Policies\\Microsoft\\Windows\\Explorer",
+        "KeyName": "NoBalloonFeatureAdvertisements",
+        "PropertyType": "DWord",
+        "PropertyValue": "1",
+        "OptimizationState": "Apply",
+        "Comment": "FIX: was lege waarde. Geen feature-ad balloons."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Policies\\Microsoft\\Control Panel\\International",
+        "KeyName": "TurnOffOfferTextPredictions",
+        "PropertyType": "DWord",
+        "PropertyValue": "1",
+        "OptimizationState": "Apply",
+        "Comment": "Tekstvoorspellingen in tekstvelden uit."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Policies\\Microsoft\\Windows\\Explorer",
+        "KeyName": "DisableThumbsDBOnNetworkFolders",
+        "PropertyType": "DWord",
+        "PropertyValue": "1",
+        "OptimizationState": "Apply",
+        "Comment": "BELANGRIJK: voorkomt thumbs.db files op SMB - FSLogix VHDX best practice."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Policies\\Microsoft\\Windows\\CurrentVersion\\PushNotifications",
+        "KeyName": "NoToastApplicationNotification",
+        "PropertyType": "DWord",
+        "PropertyValue": "1",
+        "OptimizationState": "Skip",
+        "Comment": "SKIP: blokkeert OOK Teams/Outlook toasts. Killer voor productiviteit."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Policies\\Microsoft\\Windows\\CurrentVersion\\PushNotifications",
+        "KeyName": "NoToastApplicationNotificationOnLockScreen",
+        "PropertyType": "DWord",
+        "PropertyValue": "1",
+        "OptimizationState": "Apply",
+        "Comment": "Toasts op lockscreen WEL uit (privacy)."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Policies\\Microsoft\\Windows\\EdgeUI",
+        "KeyName": "DisableMFUTracking",
+        "PropertyType": "DWord",
+        "PropertyValue": "1",
+        "OptimizationState": "Apply",
+        "Comment": "Most-Frequently-Used app tracking uit (privacy + lichte perf)."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer",
+        "KeyName": "NoInstrumentation",
+        "PropertyType": "DWord",
+        "PropertyValue": "1",
+        "OptimizationState": "Apply",
+        "Comment": "FIX: was lege waarde. User-tracking instrumentation uit."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Policies\\Microsoft\\Edge\\Recommended",
+        "KeyName": "StartupBoostEnabled",
+        "PropertyType": "DWord",
+        "PropertyValue": "0",
+        "OptimizationState": "Skip",
+        "Comment": "SKIP: gedekt door HKLM Edge-policy in PolicyRegSettings.json. Geen Intune in tenant."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Policies\\Microsoft\\EdgeUpdate",
+        "KeyName": "UpdatesSuppressedDurationMin",
+        "PropertyType": "DWord",
+        "PropertyValue": "900",
+        "OptimizationState": "Skip",
+        "Comment": "SKIP: EdgeUpdate.exe draait als SYSTEM en leest alleen HKLM. Verplaatst naar HKLM-entry in PolicyRegSettings.json."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Policies\\Microsoft\\EdgeUpdate",
+        "KeyName": "UpdatesSuppressedStartHour",
+        "PropertyType": "DWord",
+        "PropertyValue": "4",
+        "OptimizationState": "Skip",
+        "Comment": "SKIP: zie EdgeUpdate-comment hierboven - HKLM in PolicyRegSettings.json."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Policies\\Microsoft\\EdgeUpdate",
+        "KeyName": "UpdatesSuppressedStartMin",
+        "PropertyType": "DWord",
+        "PropertyValue": "0",
+        "OptimizationState": "Skip",
+        "Comment": "SKIP: zie EdgeUpdate-comment hierboven - HKLM in PolicyRegSettings.json."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer",
+        "KeyName": "NoSearchInternetInStartMenu",
+        "PropertyType": "DWord",
+        "PropertyValue": "1",
+        "OptimizationState": "Apply",
+        "Comment": "Geen web-resultaten in Start zoekbox."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Policies\\Microsoft\\Windows\\Explorer",
+        "KeyName": "NoRemoteDestinations",
+        "PropertyType": "DWord",
+        "PropertyValue": "1",
+        "OptimizationState": "Apply",
+        "Comment": "Recent files: geen remote destinations tracken."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent",
+        "KeyName": "ConfigureWindowsSpotlight",
+        "PropertyType": "DWord",
+        "PropertyValue": "2",
+        "OptimizationState": "Apply",
+        "Comment": "Windows Spotlight uit (waarde 2 = disabled)."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer",
+        "KeyName": "ShellState",
+        "PropertyType": "BINARY",
+        "PropertyValue": "0x24,0x00,0x00,0x00,0x3C,0x28,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00",
+        "OptimizationState": "Apply",
+        "Comment": "Shell-defaults blob (toont file-extensies, geen 'recently opened' op Quick Access). Test in DEV."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+        "KeyName": "IconsOnly",
+        "PropertyType": "DWORD",
+        "PropertyValue": 1,
+        "OptimizationState": "Apply",
+        "Comment": "Geen thumbnails - Explorer-iconen alleen. Bespaart per-user thumbcache I/O op FSLogix."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+        "KeyName": "ListviewAlphaSelect",
+        "PropertyType": "DWORD",
+        "PropertyValue": 0,
+        "OptimizationState": "Apply",
+        "Comment": "Translucent selection rectangle uit."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+        "KeyName": "ListviewShadow",
+        "PropertyType": "DWORD",
+        "PropertyValue": 0,
+        "OptimizationState": "Apply",
+        "Comment": "Drop-shadows op desktop-iconen uit."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+        "KeyName": "ShowCompColor",
+        "PropertyType": "DWORD",
+        "PropertyValue": 1,
+        "OptimizationState": "Apply",
+        "Comment": "Kleur compressed/encrypted files (default = aan, geen wijziging)."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+        "KeyName": "ShowInfoTip",
+        "PropertyType": "DWORD",
+        "PropertyValue": 1,
+        "OptimizationState": "Apply",
+        "Comment": "Tooltips aan (default)."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+        "KeyName": "TaskbarAnimations",
+        "PropertyType": "DWORD",
+        "PropertyValue": 0,
+        "OptimizationState": "Apply",
+        "Comment": "Taakbalk-animaties uit."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects",
+        "KeyName": "VisualFXSetting",
+        "PropertyType": "DWORD",
+        "PropertyValue": 3,
+        "OptimizationState": "Apply",
+        "Comment": "Visual Effects = 'Best Performance' preset. Zwaarste GPU/CPU-winner."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\DWM",
+        "KeyName": "EnableAeroPeek",
+        "PropertyType": "DWORD",
+        "PropertyValue": 0,
+        "OptimizationState": "Apply",
+        "Comment": "Aero Peek uit."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\DWM",
+        "KeyName": "AlwaysHibernateThumbnails",
+        "PropertyType": "DWORD",
+        "PropertyValue": 0,
+        "OptimizationState": "Apply",
+        "Comment": "Geen DWM-thumbnail-hibernation cache."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Control Panel\\Desktop",
+        "KeyName": "DragFullWindows",
+        "PropertyType": "STRING",
+        "PropertyValue": "0",
+        "OptimizationState": "Apply",
+        "Comment": "FIX: STRING-type met integer was bug. Toon alleen omtrek tijdens drag - winst over RDP."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Control Panel\\Desktop",
+        "KeyName": "FontSmoothing",
+        "PropertyType": "STRING",
+        "PropertyValue": "2",
+        "OptimizationState": "Apply",
+        "Comment": "FIX: STRING-type. ClearType aan (waarde 2)."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Control Panel\\Desktop",
+        "KeyName": "UserPreferencesMask",
+        "PropertyType": "BINARY",
+        "PropertyValue": "0x90,0x32,0x07,0x80,0x10,0x00,0x00,0x00",
+        "OptimizationState": "Apply",
+        "Comment": "Performance-optimized animation/effects mask (kill animaties + auto-hide menus)."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Control Panel\\Desktop\\WindowMetrics",
+        "KeyName": "MinAnimate",
+        "PropertyType": "STRING",
+        "PropertyValue": "0",
+        "OptimizationState": "Apply",
+        "Comment": "FIX: STRING-type. Window-minimize-animatie uit."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\StorageSense\\Parameters\\StoragePolicy",
+        "KeyName": "01",
+        "PropertyType": "DWORD",
+        "PropertyValue": 0,
+        "OptimizationState": "Skip",
+        "Comment": "SKIP: disablet StorageSense. Op AVD met FSLogix wil je StorageSense JUIST AAN voor temp/recyclebin opruimen."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+        "KeyName": "SystemPaneSuggestionsEnabled",
+        "PropertyType": "DWORD",
+        "PropertyValue": 0,
+        "OptimizationState": "Apply",
+        "Comment": "Geen 'tip' suggesties in Settings."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Control Panel\\International\\User Profile",
+        "KeyName": "HttpAcceptLanguageOptOut",
+        "PropertyType": "DWORD",
+        "PropertyValue": 1,
+        "OptimizationState": "Apply",
+        "Comment": "Accept-Language header niet automatisch sturen."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\BackgroundAccessApplications\\Microsoft.Windows.Photos_8wekyb3d8bbwe",
+        "KeyName": "Disabled",
+        "PropertyType": "DWORD",
+        "PropertyValue": 1,
+        "OptimizationState": "Apply",
+        "Comment": "Photos: geen background-access."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\BackgroundAccessApplications\\Microsoft.Windows.Photos_8wekyb3d8bbwe",
+        "KeyName": "DisabledByUser",
+        "PropertyType": "DWORD",
+        "PropertyValue": 1,
+        "OptimizationState": "Apply",
+        "Comment": "Photos: ook DisabledByUser flag (anders bypassed)."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\BackgroundAccessApplications\\Microsoft.SkypeApp_kzf8qxf38zg5c",
+        "KeyName": "Disabled",
+        "PropertyType": "DWORD",
+        "PropertyValue": 1,
+        "OptimizationState": "Apply",
+        "Comment": "SkypeApp legacy - background uit (Skype consumer is dood)."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\BackgroundAccessApplications\\Microsoft.SkypeApp_kzf8qxf38zg5c",
+        "KeyName": "DisabledByUser",
+        "PropertyType": "DWORD",
+        "PropertyValue": 1,
+        "OptimizationState": "Apply",
+        "Comment": "SkypeApp DisabledByUser."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\BackgroundAccessApplications\\Microsoft.YourPhone_8wekyb3d8bbwe",
+        "KeyName": "Disabled",
+        "PropertyType": "DWORD",
+        "PropertyValue": 1,
+        "OptimizationState": "Apply",
+        "Comment": "YourPhone/Phone Link: zinloos op AVD."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\BackgroundAccessApplications\\Microsoft.YourPhone_8wekyb3d8bbwe",
+        "KeyName": "DisabledByUser",
+        "PropertyType": "DWORD",
+        "PropertyValue": 1,
+        "OptimizationState": "Apply",
+        "Comment": "YourPhone DisabledByUser."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\BackgroundAccessApplications\\Microsoft.MicrosoftEdge_8wekyb3d8bbwe",
+        "KeyName": "Disabled",
+        "PropertyType": "DWORD",
+        "PropertyValue": 1,
+        "OptimizationState": "Apply",
+        "Comment": "Edge LEGACY (EdgeHTML) - dood, harmless."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\BackgroundAccessApplications\\Microsoft.MicrosoftEdge_8wekyb3d8bbwe",
+        "KeyName": "DisabledByUser",
+        "PropertyType": "DWORD",
+        "PropertyValue": 1,
+        "OptimizationState": "Apply",
+        "Comment": "Edge LEGACY DisabledByUser."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\BackgroundAccessApplications\\Microsoft.549981C3F5F10_8wekyb3d8bbwe",
+        "KeyName": "Disabled",
+        "PropertyType": "DWORD",
+        "PropertyValue": 1,
+        "OptimizationState": "Apply",
+        "Comment": "Cortana background uit (ID 549981C3F5F10 = Cortana)."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\BackgroundAccessApplications\\Microsoft.549981C3F5F10_8wekyb3d8bbwe",
+        "KeyName": "DisabledByUser",
+        "PropertyType": "DWORD",
+        "PropertyValue": 1,
+        "OptimizationState": "Apply",
+        "Comment": "Cortana DisabledByUser."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\CPSS\\Store\\InkingAndTypingPersonalization",
+        "KeyName": "Value",
+        "PropertyType": "DWORD",
+        "PropertyValue": 0,
+        "OptimizationState": "Apply",
+        "Comment": "Inking/typing personalization opt-out."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\InputPersonalization",
+        "KeyName": "RestrictImplicitInkCollection",
+        "PropertyType": "DWORD",
+        "PropertyValue": 1,
+        "OptimizationState": "Apply",
+        "Comment": "Per-user backup van HKLM-policy (dubbel, harmless)."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\InputPersonalization",
+        "KeyName": "RestrictImplicitTextCollection",
+        "PropertyType": "DWORD",
+        "PropertyValue": 1,
+        "OptimizationState": "Apply",
+        "Comment": "Per-user backup van HKLM-policy."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\InputPersonalization\\TrainedDataStore",
+        "KeyName": "HarvestContacts",
+        "PropertyType": "DWORD",
+        "PropertyValue": 0,
+        "OptimizationState": "Apply",
+        "Comment": "Geen contact-harvesting voor AI-suggesties."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\UserProfileEngagement",
+        "KeyName": "ScoobeSystemSettingEnabled",
+        "PropertyType": "DWORD",
+        "PropertyValue": 0,
+        "OptimizationState": "Apply",
+        "Comment": "ZEER BELANGRIJK: kill 'Let's finish setting up your device' first-login prompt - top irritant op AVD."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\GameBar",
+        "KeyName": "UseNexusForGameBarEnabled",
+        "PropertyType": "DWORD",
+        "PropertyValue": 0,
+        "OptimizationState": "Apply",
+        "Comment": "Game Bar (Win+G) uit."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Microsoft\\Windows\\CurrentVersion\\GameDVR",
+        "KeyName": "AppCaptureEnabled",
+        "PropertyType": "DWORD",
+        "PropertyValue": 0,
+        "OptimizationState": "Apply",
+        "Comment": "App-capture (Game DVR opnames) per gebruiker uit."
+    },
+    {
+        "HivePath": "HKLM:\\WDOT_TEMP\\Software\\Policies\\Microsoft\\Windows\\WindowsCopilot",
+        "KeyName": "TurnOffWindowsCopilot",
+        "PropertyType": "DWORD",
+        "PropertyValue": 1,
+        "OptimizationState": "Skip",
+        "Comment": "SKIP DEFAULT: BUSINESS BESLISSING. Apply als JuICT-klanten geen Copilot mogen. Microsoft 365 Copilot is het waard om aan te laten op AVD."
+    }
+]
